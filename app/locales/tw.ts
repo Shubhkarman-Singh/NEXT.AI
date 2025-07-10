@@ -27,7 +27,7 @@ const tw = {
     Return: "返回",
     SaasTips: "設定太麻煩，想要立即使用",
     TopTips:
-      "🥳 NextChat AI 首發優惠，立刻解鎖 OpenAI o1, GPT-4o, Claude-3.5 等最新的大型語言模型",
+      "🥳 Next.AI 首發優惠，立刻解鎖 OpenAI o1, GPT-4o, Claude-3.5 等最新的大型語言模型",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 則對話`,
@@ -73,10 +73,10 @@ const tw = {
         dark: "深色模式",
       },
       Prompt: "快捷指令",
-      Masks: "所有角色範本",
+      Masks: "應用程式",
       Clear: "清除聊天",
       Settings: "對話設定",
-      UploadImage: "上傳圖片",
+      UploadImage: "上傳文件或圖片",
     },
     Rename: "重新命名對話",
     Typing: "正在輸入…",
@@ -299,11 +299,11 @@ const tw = {
 
     Access: {
       SaasStart: {
-        Title: "使用 NextChat AI",
-        Label: "(性價比最高的方案)",
+        Title: "使用 Next.AI",
+        Label: "（最具成本效益的方案）",
         SubTitle:
-          "由 NextChat 官方維護，無須設定開箱即用，支援 OpenAI o1、GPT-4o、Claude-3.5 等最新的大型語言模型",
-        ChatNow: "立刻開始對話",
+          "由 Next.AI 官方維護，無需設定即可使用，支援 OpenAI o1、GPT-4o、Claude-3.5 等最新大型語言模型",
+        ChatNow: "立即開始",
       },
 
       AccessCode: {
@@ -456,7 +456,7 @@ const tw = {
   Plugin: { Name: "外掛" },
   FineTuned: { Sysmessage: "你是一個助手" },
   Mask: {
-    Name: "角色範本",
+    Name: "應用程式",
     Page: {
       Title: "預設角色角色範本",
       SubTitle: (count: number) => `${count} 個預設角色定義`,
@@ -543,6 +543,9 @@ const tw = {
     Messages: "訊息",
     Topic: "主題",
     Time: "時間",
+  },
+  Discovery: {
+    Name: "搜尋",
   },
 };
 

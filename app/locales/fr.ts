@@ -28,7 +28,7 @@ const fr: PartialLocaleType = {
     SaasTips:
       "La configuration est trop compliquée, je veux l'utiliser immédiatement",
     TopTips:
-      "🥳 Offre de lancement NextChat AI, débloquez OpenAI o1, GPT-4o, Claude-3.5 et les derniers grands modèles",
+      "🥳 Offre de lancement Next.AI, débloquez OpenAI o1, GPT-4o, Claude-3.5 et les derniers grands modèles",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} conversations`,
@@ -74,10 +74,10 @@ const fr: PartialLocaleType = {
         dark: "Mode sombre",
       },
       Prompt: "Commandes rapides",
-      Masks: "Tous les masques",
+      Masks: "Application",
       Clear: "Effacer la discussion",
       Settings: "Paramètres de la discussion",
-      UploadImage: "Télécharger une image",
+      UploadImage: "Télécharger des fichiers ou des images",
     },
     Rename: "Renommer la discussion",
     Typing: "En train d'écrire…",
@@ -306,11 +306,11 @@ const fr: PartialLocaleType = {
 
     Access: {
       SaasStart: {
-        Title: "Utiliser NextChat AI",
-        Label: "(La solution la plus rentable)",
+        Title: "Utiliser Next.AI",
+        Label: " (Option la plus économique)",
         SubTitle:
-          "Officiellement maintenu par NextChat, prêt à l'emploi sans configuration, prend en charge les derniers grands modèles comme OpenAI o1, GPT-4o et Claude-3.5",
-        ChatNow: "Discuter maintenant",
+          "Maintenu par Next.AI, aucune configuration requise, débloquez OpenAI o1, GPT-4o, Claude-3.5 et plus encore",
+        ChatNow: "Commencer maintenant",
       },
 
       AccessCode: {
@@ -532,7 +532,7 @@ const fr: PartialLocaleType = {
     },
   },
   Mask: {
-    Name: "Masque",
+    Name: "Application",
     Page: {
       Title: "Masques de rôle prédéfinis",
       SubTitle: (count: number) => `${count} définitions de rôle prédéfinies`,
@@ -612,6 +612,9 @@ const fr: PartialLocaleType = {
     Messages: "Messages",
     Topic: "Sujet",
     Time: "Temps",
+  },
+  Discovery: {
+    Name: "Recherche",
   },
 };
 

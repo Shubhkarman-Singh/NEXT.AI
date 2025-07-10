@@ -751,3 +751,15 @@
     }
   }
 }
+
+.always-show,
+.always-show:hover {
+  width: auto !important;
+  min-width: max-content !important;
+}
+
+.always-show .text {
+  opacity: 1 !important;
+  transform: translate(0) !important;
+  pointer-events: auto;
+}

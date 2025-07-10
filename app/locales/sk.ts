@@ -28,7 +28,7 @@ const sk: PartialLocaleType = {
     Return: "Návrat",
     SaasTips: "Nastavenie je príliš zložité, chcem to okamžite použiť",
     TopTips:
-      "🥳 Uvítacia ponuka NextChat AI, okamžite odomknite OpenAI o1, GPT-4o, Claude-3.5 a najnovšie veľké modely",
+      "🥳 Uvítacia ponuka Next.AI, okamžite odomknite OpenAI o1, GPT-4o, Claude-3.5 a najnovšie veľké modely",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} správ`,
@@ -74,7 +74,7 @@ const sk: PartialLocaleType = {
         dark: "Tmavý motív",
       },
       Prompt: "Výzvy",
-      Masks: "Masky",
+      Masks: "Aplikácia",
       Clear: "Vymazať kontext",
       Settings: "Nastavenia",
     },
@@ -292,11 +292,11 @@ const sk: PartialLocaleType = {
     },
     Access: {
       SaasStart: {
-        Title: "Použite NextChat AI",
-        Label: "(Najvýhodnejšie riešenie)",
+        Title: "Použiť Next.AI",
+        Label: "(Najefektívnejšie riešenie)",
         SubTitle:
-          "Oficiálne udržiavané NextChat, pripravené na použitie bez konfigurácie, podporuje najnovšie veľké modely ako OpenAI o1, GPT-4o a Claude-3.5",
-        ChatNow: "Chatovať teraz",
+          "Oficiálne spravované Next.AI, pripravené na použitie bez konfigurácie, podporuje najnovšie veľké modely ako OpenAI o1, GPT-4o a Claude-3.5",
+        ChatNow: "Začať teraz",
       },
 
       AccessCode: {
@@ -473,7 +473,7 @@ const sk: PartialLocaleType = {
     },
   },
   Mask: {
-    Name: "Maska",
+    Name: "Aplikácia",
     Page: {
       Title: "Šablóna výziev",
       SubTitle: (count: number) => `${count} šablón výziev`,
@@ -548,6 +548,9 @@ const sk: PartialLocaleType = {
   URLCommand: {
     Code: "Zistený prístupový kód z URL, potvrdiť na aplikovanie?",
     Settings: "Zistené nastavenia z URL, potvrdiť na aplikovanie?",
+  },
+  Discovery: {
+    Name: "Vyhľadávanie",
   },
 };
 

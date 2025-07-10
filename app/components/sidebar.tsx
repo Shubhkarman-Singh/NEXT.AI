@@ -12,6 +12,7 @@ import MaskIcon from "../icons/mask.svg";
 import McpIcon from "../icons/mcp.svg";
 import DragIcon from "../icons/drag.svg";
 import DiscoveryIcon from "../icons/discovery.svg";
+import LogoIcon from "../icons/logo.svg";
 
 import Locale from "../locales";
 
@@ -185,13 +186,15 @@ export function SideBarHeader(props: {
         })}
         data-tauri-drag-region
       >
-        <div className={styles["sidebar-title-container"]}>
-          <div className={styles["sidebar-title"]} data-tauri-drag-region>
-            {title}
+        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+          <div className={clsx(styles["sidebar-logo"], "no-dark")}>{logo}</div>
+          <div className={styles["sidebar-title-container"]}>
+            <div className={styles["sidebar-title"]} data-tauri-drag-region>
+              {title}
+            </div>
+            <div className={styles["sidebar-sub-title"]}>{subTitle}</div>
           </div>
-          <div className={styles["sidebar-sub-title"]}>{subTitle}</div>
         </div>
-        <div className={clsx(styles["sidebar-logo"], "no-dark")}>{logo}</div>
       </div>
       {children}
     </Fragment>
@@ -250,9 +253,9 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="NextChat"
-        subTitle="Build your own AI assistant."
-        logo={<ChatGptIcon />}
+        title="Next.AI"
+        subTitle="Your all-in-one AI workspace."
+        logo={<LogoIcon />}
         shouldNarrow={shouldNarrow}
       >
         <div className={styles["sidebar-header-bar"]}>
@@ -269,7 +272,7 @@ export function SideBar(props: { className?: string }) {
             }}
             shadow
           />
-          {mcpEnabled && (
+{/*        {mcpEnabled && (
             <IconButton
               icon={<McpIcon />}
               text={shouldNarrow ? undefined : Locale.Mcp.Name}
@@ -279,7 +282,7 @@ export function SideBar(props: { className?: string }) {
               }}
               shadow
             />
-          )}
+          )} */}
           <IconButton
             icon={<DiscoveryIcon />}
             text={shouldNarrow ? undefined : Locale.Discovery.Name}
@@ -336,15 +339,16 @@ export function SideBar(props: { className?: string }) {
                 />
               </Link>
             </div>
-            <div className={styles["sidebar-action"]}>
-              <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
+            {mcpEnabled && (
+              <div className={styles["sidebar-action"]}>
                 <IconButton
-                  aria={Locale.Export.MessageFromChatGPT}
-                  icon={<GithubIcon />}
+                  aria={Locale.Mcp.Name}
+                  icon={<McpIcon />}
                   shadow
+                  onClick={() => navigate(Path.McpMarket)}
                 />
-              </a>
-            </div>
+              </div>
+            )}
           </>
         }
         secondaryAction={

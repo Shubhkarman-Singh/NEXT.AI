@@ -27,7 +27,7 @@ const jp: PartialLocaleType = {
     Return: "戻る",
     SaasTips: "設定が面倒すぎる、すぐに使いたい",
     TopTips:
-      "🥳 NextChat AIの発売特典で、OpenAI o1、GPT-4o、Claude-3.5などの最新の大規模モデルを今すぐアンロック",
+      "🥳 Next.AIローンチ記念、今すぐOpenAI o1、GPT-4o、Claude-3.5など最新の大規模モデルを解放",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count}件の会話`,
@@ -73,10 +73,10 @@ const jp: PartialLocaleType = {
         dark: "ダークモード",
       },
       Prompt: "クイックコマンド",
-      Masks: "すべてのマスク",
+      Masks: "アプリケーション",
       Clear: "チャットをクリア",
       Settings: "チャット設定",
-      UploadImage: "画像をアップロード",
+      UploadImage: "ファイルまたは画像をアップロード",
     },
     Rename: "チャットの名前を変更",
     Typing: "入力中…",
@@ -293,11 +293,11 @@ const jp: PartialLocaleType = {
 
     Access: {
       SaasStart: {
-        Title: "NextChat AIを使用する",
-        Label: "(コストパフォーマンスの最も高いソリューション)",
+        Title: "Next.AIを使う",
+        Label: "（最もコスト効率の良い選択肢）",
         SubTitle:
-          "NextChatによって公式に管理されており、設定なしですぐに使用でき、OpenAI o1、GPT-4o、Claude-3.5などの最新の大規模モデルをサポートしています",
-        ChatNow: "今すぐチャット",
+          "Next.AI公式が管理、設定不要ですぐに使える。OpenAI o1、GPT-4o、Claude-3.5など最新の大規模モデルに対応",
+        ChatNow: "今すぐ始める",
       },
 
       AccessCode: {
@@ -496,7 +496,7 @@ const jp: PartialLocaleType = {
     Name: "プラグイン",
   },
   Discovery: {
-    Name: "発見",
+    Name: "検索",
   },
   FineTuned: {
     Sysmessage: "あなたはアシスタントです",
@@ -517,7 +517,7 @@ const jp: PartialLocaleType = {
     },
   },
   Mask: {
-    Name: "マスク",
+    Name: "アプリケーション",
     Page: {
       Title: "プリセットキャラクターマスク",
       SubTitle: (count: number) => `${count} 件のプリセットキャラクター定義`,

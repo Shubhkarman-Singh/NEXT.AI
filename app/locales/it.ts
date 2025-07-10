@@ -28,7 +28,7 @@ const it: PartialLocaleType = {
     SaasTips:
       "La configurazione è troppo complicata, voglio usarlo immediatamente",
     TopTips:
-      "🥳 Offerta di lancio NextChat AI, sblocca OpenAI o1, GPT-4o, Claude-3.5 e i più recenti modelli di grandi dimensioni",
+      "🥳 Offerta di lancio Next.AI, sblocca OpenAI o1, GPT-4o, Claude-3.5 e i più recenti modelli di grandi dimensioni",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} conversazioni`,
@@ -74,10 +74,10 @@ const it: PartialLocaleType = {
         dark: "Tema scuro",
       },
       Prompt: "Comandi rapidi",
-      Masks: "Tutte le maschere",
+      Masks: "Applicazione",
       Clear: "Pulisci chat",
       Settings: "Impostazioni conversazione",
-      UploadImage: "Carica immagine",
+      UploadImage: "Carica file o immagini",
     },
     Rename: "Rinomina conversazione",
     Typing: "Digitazione in corso…",
@@ -307,11 +307,11 @@ const it: PartialLocaleType = {
 
     Access: {
       SaasStart: {
-        Title: "Usa NextChat AI",
-        Label: "(La soluzione più conveniente)",
+        Title: "Usa Next.AI",
+        Label: "(Opzione più conveniente)",
         SubTitle:
-          "Mantenuto ufficialmente da NextChat, pronto all'uso senza configurazione, supporta i modelli più recenti come OpenAI o1, GPT-4o e Claude-3.5",
-        ChatNow: "Chatta ora",
+          "Gestito ufficialmente da Next.AI, pronto all'uso senza configurazione, supporta i più recenti grandi modelli come OpenAI o1, GPT-4o e Claude-3.5",
+        ChatNow: "Inizia ora",
       },
 
       AccessCode: {
@@ -533,7 +533,7 @@ const it: PartialLocaleType = {
     },
   },
   Mask: {
-    Name: "Maschera",
+    Name: "Applicazione",
     Page: {
       Title: "Maschere dei ruoli predefiniti",
       SubTitle: (count: number) => `${count} definizioni di ruoli predefiniti`,
@@ -613,6 +613,9 @@ const it: PartialLocaleType = {
     Messages: "Messaggi",
     Topic: "Tema",
     Time: "Tempo",
+  },
+  Discovery: {
+    Name: "Ricerca",
   },
 };
 

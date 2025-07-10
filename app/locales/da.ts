@@ -75,10 +75,10 @@ const da: PartialLocaleType = {
         dark: "Mørkt tema",
       },
       Prompt: "Prompts",
-      Masks: "Personaer",
+      Masks: "Applikation",
       Clear: "Ryd kontekst",
       Settings: "Indstillinger",
-      UploadImage: "Upload billeder",
+      UploadImage: "Upload filer eller billeder",
     },
     Rename: "Omdøb chat",
     Typing: "Skriver…",
@@ -637,7 +637,7 @@ const da: PartialLocaleType = {
     Revert: "Fortryd",
   },
   Discovery: {
-    Name: "Søgning og plugins",
+    Name: "Søg",
   },
   Mcp: {
     Name: "MCP",
@@ -701,7 +701,7 @@ const da: PartialLocaleType = {
     },
   },
   Mask: {
-    Name: "Persona",
+    Name: "Applikation",
     Page: {
       Title: "Prompts som personaer",
       SubTitle: (count: number) => `${count} skabeloner`,

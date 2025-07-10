@@ -27,7 +27,7 @@ const ko: PartialLocaleType = {
     Return: "돌아가기",
     SaasTips: "설정이 너무 복잡합니다. 즉시 사용하고 싶습니다.",
     TopTips:
-      "🥳 NextChat AI 출시 기념 할인, 지금 OpenAI o1, GPT-4o, Claude-3.5 및 최신 대형 모델을 해제하세요",
+      "🥳 Next.AI 출시 기념 할인, 지금 OpenAI o1, GPT-4o, Claude-3.5 및 최신 대형 모델을 해제하세요",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 개의 대화`,
@@ -73,10 +73,10 @@ const ko: PartialLocaleType = {
         dark: "다크 모드",
       },
       Prompt: "빠른 명령",
-      Masks: "모든 마스크",
+      Masks: "애플리케이션",
       Clear: "채팅 지우기",
       Settings: "채팅 설정",
-      UploadImage: "이미지 업로드",
+      UploadImage: "파일 또는 이미지 업로드",
     },
     Rename: "채팅 이름 변경",
     Typing: "입력 중…",
@@ -292,10 +292,10 @@ const ko: PartialLocaleType = {
 
     Access: {
       SaasStart: {
-        Title: "NextChat AI 사용하기",
+        Title: "Next.AI 사용하기",
         Label: "(가장 비용 효율적인 솔루션)",
         SubTitle:
-          "NextChat에 의해 공식적으로 유지 관리되며, 제로 구성으로 즉시 사용할 수 있으며, OpenAI o1, GPT-4o, Claude-3.5와 같은 최신 대형 모델을 지원합니다",
+          "Next.AI에 의해 공식적으로 유지 관리되며, 제로 구성으로 즉시 사용할 수 있으며, OpenAI o1, GPT-4o, Claude-3.5와 같은 최신 대형 모델을 지원합니다",
         ChatNow: "지금 채팅하기",
       },
 
@@ -509,7 +509,7 @@ const ko: PartialLocaleType = {
     },
   },
   Mask: {
-    Name: "마스크",
+    Name: "애플리케이션",
     Page: {
       Title: "프리셋 캐릭터 마스크",
       SubTitle: (count: number) => `${count} 개의 프리셋 캐릭터 정의`,
@@ -586,6 +586,9 @@ const ko: PartialLocaleType = {
     Messages: "메시지",
     Topic: "주제",
     Time: "시간",
+  },
+  Discovery: {
+    Name: "검색",
   },
 };
 

@@ -27,7 +27,7 @@ const cn = {
     Later: "稍后再说",
     SaasTips: "配置太麻烦，想要立即使用",
     TopTips:
-      "🥳 NextChat AI 首发优惠，立刻解锁 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
+      "🥳 Next.AI 首发优惠，立刻解锁 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -77,10 +77,10 @@ const cn = {
         dark: "深色模式",
       },
       Prompt: "快捷指令",
-      Masks: "所有面具",
+      Masks: "应用",
       Clear: "清除聊天",
       Settings: "对话设置",
-      UploadImage: "上传图片",
+      UploadImage: "上传文件或图片",
     },
     Rename: "重命名对话",
     Typing: "正在输入…",
@@ -312,10 +312,10 @@ const cn = {
 
     Access: {
       SaasStart: {
-        Title: "使用 NextChat AI",
+        Title: "使用 Next.AI",
         Label: "（性价比最高的方案）",
         SubTitle:
-          "由 NextChat 官方维护, 零配置开箱即用，支持 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
+          "由 Next.AI 官方维护, 零配置开箱即用，支持 OpenAI o1, GPT-4o, Claude-3.5 等最新大模型",
         ChatNow: "立刻对话",
       },
       AccessCode: {
@@ -658,7 +658,7 @@ const cn = {
     Revert: "恢复上下文",
   },
   Discovery: {
-    Name: "发现",
+    Name: "搜索",
   },
   Mcp: {
     Name: "MCP",
@@ -722,7 +722,7 @@ const cn = {
     },
   },
   Mask: {
-    Name: "面具",
+    Name: "应用",
     Page: {
       Title: "预设角色面具",
       SubTitle: (count: number) => `${count} 个预设角色定义`,

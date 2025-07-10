@@ -28,7 +28,7 @@ const no: PartialLocaleType = {
     SaasTips:
       "Konfigurasjonen er for komplisert, jeg vil bruke det med en gang",
     TopTips:
-      "🥳 NextChat AI lanseringstilbud, lås opp OpenAI o1, GPT-4o, Claude-3.5 og de nyeste store modellene nå",
+      "🥳 Next.AI lanseringstilbud, lås opp OpenAI o1, GPT-4o, Claude-3.5 og de nyeste store modellene nå",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} samtaler`,
@@ -75,10 +75,10 @@ const no: PartialLocaleType = {
         dark: "Mørkt tema",
       },
       Prompt: "Hurtigkommando",
-      Masks: "Alle masker",
+      Masks: "Applikasjon",
       Clear: "Rydd samtale",
       Settings: "Samtaleinnstillinger",
-      UploadImage: "Last opp bilde",
+      UploadImage: "Last opp filer eller bilder",
     },
     Rename: "Gi nytt navn til samtale",
     Typing: "Skriver…",
@@ -300,11 +300,11 @@ const no: PartialLocaleType = {
 
     Access: {
       SaasStart: {
-        Title: "Bruk NextChat AI",
+        Title: "Bruk Next.AI",
         Label: "(Den mest kostnadseffektive løsningen)",
         SubTitle:
-          "Offisielt vedlikeholdt av NextChat, klar til bruk uten konfigurasjon, støtter de nyeste store modellene som OpenAI o1, GPT-4o og Claude-3.5",
-        ChatNow: "Chat nå",
+          "Offisielt vedlikeholdt av Next.AI, klar til bruk uten konfigurasjon, støtter de nyeste store modellene som OpenAI o1, GPT-4o og Claude-3.5",
+        ChatNow: "Start nå",
       },
 
       AccessCode: {
@@ -526,7 +526,7 @@ const no: PartialLocaleType = {
     },
   },
   Mask: {
-    Name: "Maske",
+    Name: "Applikasjon",
     Page: {
       Title: "Forhåndsdefinerte rollemasker",
       SubTitle: (count: number) =>
@@ -605,6 +605,9 @@ const no: PartialLocaleType = {
     Messages: "Meldinger",
     Topic: "Emne",
     Time: "Tid",
+  },
+  Discovery: {
+    Name: "Søk",
   },
 };
 

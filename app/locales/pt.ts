@@ -27,7 +27,7 @@ const pt: PartialLocaleType = {
     Return: "Voltar",
     SaasTips: "A configuração é muito complicada, quero usá-la imediatamente",
     TopTips:
-      "🥳 Oferta de Lançamento do NextChat AI, desbloqueie o OpenAI o1, GPT-4o, Claude-3.5 e os mais recentes grandes modelos agora",
+      "🥳 Oferta de Lançamento do Next.AI, desbloqueie o OpenAI o1, GPT-4o, Claude-3.5 e os mais recentes grandes modelos agora",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} mensagens`,
@@ -73,7 +73,7 @@ const pt: PartialLocaleType = {
         dark: "Tema Escuro",
       },
       Prompt: "Prompts",
-      Masks: "Máscaras",
+      Masks: "Aplicativo",
       Clear: "Limpar Contexto",
       Settings: "Configurações",
     },
@@ -292,11 +292,11 @@ const pt: PartialLocaleType = {
     },
     Access: {
       SaasStart: {
-        Title: "Usar NextChat AI",
-        Label: "(A solução mais econômica)",
+        Title: "Use Next.AI",
+        Label: " (Opção Mais Econômica)",
         SubTitle:
-          "Mantido oficialmente pelo NextChat, pronto para uso sem configuração, suporta os mais recentes grandes modelos como OpenAI o1, GPT-4o e Claude-3.5",
-        ChatNow: "Conversar agora",
+          "Mantido pela Next.AI, zero configuração necessária, desbloqueie OpenAI o1, GPT-4o, Claude-3.5 e mais",
+        ChatNow: "Comece Agora",
       },
 
       AccessCode: {
@@ -456,7 +456,7 @@ const pt: PartialLocaleType = {
     },
   },
   Mask: {
-    Name: "Máscara",
+    Name: "Aplicativo",
     Page: {
       Title: "Template de Prompt",
       SubTitle: (count: number) => `${count} templates de prompt`,
@@ -533,6 +533,9 @@ const pt: PartialLocaleType = {
     Code: "Código de acesso detectado a partir da url, confirmar para aplicar? ",
     Settings:
       "Configurações detectadas a partir da url, confirmar para aplicar?",
+  },
+  Discovery: {
+    Name: "Buscar",
   },
 };
 

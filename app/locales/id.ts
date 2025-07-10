@@ -27,7 +27,7 @@ const id: PartialLocaleType = {
     Return: "Kembali",
     SaasTips: "Konfigurasi terlalu rumit, saya ingin menggunakannya segera",
     TopTips:
-      "🥳 Penawaran Peluncuran NextChat AI, buka OpenAI o1, GPT-4o, Claude-3.5 dan model besar terbaru sekarang",
+      "🥳 Penawaran Peluncuran Next.AI, buka OpenAI o1, GPT-4o, Claude-3.5 dan model besar terbaru sekarang",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} percakapan`,
@@ -73,10 +73,10 @@ const id: PartialLocaleType = {
         dark: "Mode Gelap",
       },
       Prompt: "Perintah Cepat",
-      Masks: "Semua Masker",
+      Masks: "Aplikasi",
       Clear: "Hapus Obrolan",
       Settings: "Pengaturan Obrolan",
-      UploadImage: "Unggah Gambar",
+      UploadImage: "Unggah File atau Gambar",
     },
     Rename: "Ganti Nama Obrolan",
     Typing: "Sedang Mengetik…",
@@ -296,11 +296,11 @@ const id: PartialLocaleType = {
 
     Access: {
       SaasStart: {
-        Title: "Gunakan NextChat AI",
-        Label: "(Solusi paling hemat biaya)",
+        Title: "Gunakan Next.AI",
+        Label: "(Pilihan Paling Efisien)",
         SubTitle:
-          "Dikelola secara resmi oleh NextChat, siap digunakan tanpa konfigurasi, mendukung model besar terbaru seperti OpenAI o1, GPT-4o, dan Claude-3.5",
-        ChatNow: "Chat Sekarang",
+          "Dikelola secara resmi oleh Next.AI, siap digunakan tanpa konfigurasi, mendukung model besar terbaru seperti OpenAI o1, GPT-4o, dan Claude-3.5",
+        ChatNow: "Mulai Sekarang",
       },
 
       AccessCode: {
@@ -521,7 +521,7 @@ const id: PartialLocaleType = {
     },
   },
   Mask: {
-    Name: "Masker",
+    Name: "Aplikasi",
     Page: {
       Title: "Preset Karakter Masker",
       SubTitle: (count: number) => `${count} definisi karakter preset`,
@@ -600,6 +600,9 @@ const id: PartialLocaleType = {
     Messages: "Pesan",
     Topic: "Topik",
     Time: "Waktu",
+  },
+  Discovery: {
+    Name: "Cari",
   },
 };
 

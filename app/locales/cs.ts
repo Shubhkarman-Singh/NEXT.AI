@@ -27,7 +27,7 @@ const cs: PartialLocaleType = {
     Return: "Návrat",
     SaasTips: "Konfigurace je příliš složitá, chci okamžitě začít používat",
     TopTips:
-      "🥳 Uvítací nabídka NextChat AI, okamžitě odemkněte OpenAI o1, GPT-4o, Claude-3.5 a nejnovější velké modely",
+      "🥳 Uvítací nabídka Next.AI, okamžitě odemkněte OpenAI o1, GPT-4o, Claude-3.5 a nejnovější velké modely",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} konverzací`,
@@ -73,10 +73,10 @@ const cs: PartialLocaleType = {
         dark: "Tmavý režim",
       },
       Prompt: "Rychlé příkazy",
-      Masks: "Všechny masky",
+      Masks: "Aplikace",
       Clear: "Vymazat konverzaci",
       Settings: "Nastavení konverzace",
-      UploadImage: "Nahrát obrázek",
+      UploadImage: "Nahrát soubory nebo obrázky",
     },
     Rename: "Přejmenovat konverzaci",
     Typing: "Píše se…",
@@ -295,10 +295,10 @@ const cs: PartialLocaleType = {
 
     Access: {
       SaasStart: {
-        Title: "Použití NextChat AI",
+        Title: "Použití Next.AI",
         Label: "(Nejlepší nákladově efektivní řešení)",
         SubTitle:
-          "Oficiálně udržováno NextChat, připraveno k použití bez konfigurace, podporuje nejnovější velké modely jako OpenAI o1, GPT-4o, Claude-3.5",
+          "Oficiálně udržováno Next.AI, připraveno k použití bez konfigurace, podporuje nejnovější velké modely jako OpenAI o1, GPT-4o, Claude-3.5",
         ChatNow: "Začněte chatovat nyní",
       },
 
@@ -518,7 +518,7 @@ const cs: PartialLocaleType = {
     },
   },
   Mask: {
-    Name: "Maska",
+    Name: "Aplikace",
     Page: {
       Title: "Přednastavené role masky",
       SubTitle: (count: number) => `${count} definovaných rolí`,
@@ -596,6 +596,9 @@ const cs: PartialLocaleType = {
     Messages: "Zprávy",
     Topic: "Téma",
     Time: "Čas",
+  },
+  Discovery: {
+    Name: "Hledat",
   },
 };
 

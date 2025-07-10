@@ -27,7 +27,7 @@ const vi: PartialLocaleType = {
     Return: "Trở lại",
     SaasTips: "Cấu hình quá phức tạp, tôi muốn sử dụng ngay lập tức",
     TopTips:
-      "🥳 Ưu đãi ra mắt NextChat AI, mở khóa OpenAI o1, GPT-4o, Claude-3.5 và các mô hình lớn mới nhất ngay bây giờ",
+      "�� Ưu đãi ra mắt Next.AI, mở khóa OpenAI o1, GPT-4o, Claude-3.5 và các mô hình lớn mới nhất ngay bây giờ",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} cuộc trò chuyện`,
@@ -73,10 +73,10 @@ const vi: PartialLocaleType = {
         dark: "Chế độ tối",
       },
       Prompt: "Lệnh tắt",
-      Masks: "Tất cả mặt nạ",
+      Masks: "Ứng dụng",
       Clear: "Xóa cuộc trò chuyện",
       Settings: "Cài đặt trò chuyện",
-      UploadImage: "Tải lên hình ảnh",
+      UploadImage: "Tải lên tệp hoặc hình ảnh",
     },
     Rename: "Đổi tên cuộc trò chuyện",
     Typing: "Đang nhập…",
@@ -294,10 +294,10 @@ const vi: PartialLocaleType = {
 
     Access: {
       SaasStart: {
-        Title: "Sử dụng NextChat AI",
+        Title: "Sử dụng Next.AI",
         Label: "(Giải pháp tiết kiệm chi phí nhất)",
         SubTitle:
-          "Được NextChat chính thức duy trì, sẵn sàng sử dụng mà không cần cấu hình, hỗ trợ các mô hình lớn mới nhất như OpenAI o1, GPT-4o và Claude-3.5",
+          "Được Next.AI chính thức duy trì, sẵn sàng sử dụng mà không cần cấu hình, hỗ trợ các mô hình lớn mới nhất như OpenAI o1, GPT-4o và Claude-3.5",
         ChatNow: "Chat ngay",
       },
 
@@ -517,7 +517,7 @@ const vi: PartialLocaleType = {
     },
   },
   Mask: {
-    Name: "Mặt nạ",
+    Name: "Ứng dụng",
     Page: {
       Title: "Mặt nạ vai trò đã định sẵn",
       SubTitle: (count: number) => `${count} định nghĩa vai trò đã định sẵn`,
@@ -596,6 +596,9 @@ const vi: PartialLocaleType = {
     Messages: "Tin nhắn",
     Topic: "Chủ đề",
     Time: "Thời gian",
+  },
+  Discovery: {
+    Name: "Tìm kiếm",
   },
 };
 

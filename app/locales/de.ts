@@ -28,7 +28,7 @@ const de: PartialLocaleType = {
     SaasTips:
       "Die Konfiguration ist zu kompliziert, ich möchte es sofort nutzen",
     TopTips:
-      "🥳 NextChat AI Einführungsangebot, schalte jetzt OpenAI o1, GPT-4o, Claude-3.5 und die neuesten großen Modelle frei",
+      "🥳 Next.AI Einführungsangebot, schalte jetzt OpenAI o1, GPT-4o, Claude-3.5 und die neuesten großen Modelle frei",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} Gespräche`,
@@ -74,10 +74,10 @@ const de: PartialLocaleType = {
         dark: "Dunkles Thema",
       },
       Prompt: "Schnellbefehle",
-      Masks: "Alle Masken",
+      Masks: "Anwendung",
       Clear: "Chat löschen",
       Settings: "Gesprächseinstellungen",
-      UploadImage: "Bild hochladen",
+      UploadImage: "Dateien oder Bilder hochladen",
     },
     Rename: "Gespräch umbenennen",
     Typing: "Tippt…",
@@ -303,10 +303,10 @@ const de: PartialLocaleType = {
 
     Access: {
       SaasStart: {
-        Title: "NextChat AI verwenden",
+        Title: "Next.AI verwenden",
         Label: "(Die kosteneffektivste Lösung)",
         SubTitle:
-          "Offiziell von NextChat verwaltet, sofort einsatzbereit ohne Konfiguration, unterstützt die neuesten großen Modelle wie OpenAI o1, GPT-4o und Claude-3.5",
+          "Offiziell von Next.AI verwaltet, sofort einsatzbereit ohne Konfiguration, unterstützt die neuesten großen Modelle wie OpenAI o1, GPT-4o und Claude-3.5",
         ChatNow: "Jetzt chatten",
       },
 
@@ -534,7 +534,7 @@ const de: PartialLocaleType = {
     },
   },
   Mask: {
-    Name: "Masken",
+    Name: "Anwendung",
     Page: {
       Title: "Vordefinierte Rollenmasken",
       SubTitle: (count: number) =>
@@ -615,6 +615,9 @@ const de: PartialLocaleType = {
     Messages: "Nachrichten",
     Topic: "Thema",
     Time: "Zeit",
+  },
+  Discovery: {
+    Name: "Suche",
   },
 };
 

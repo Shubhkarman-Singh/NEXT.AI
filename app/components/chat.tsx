@@ -34,6 +34,7 @@ import ConfirmIcon from "../icons/confirm.svg";
 import CloseIcon from "../icons/close.svg";
 import CancelIcon from "../icons/cancel.svg";
 import ImageIcon from "../icons/image.svg";
+import UploadIcon from "../icons/fileupload.svg";
 
 import LightIcon from "../icons/light.svg";
 import DarkIcon from "../icons/dark.svg";
@@ -405,6 +406,7 @@ export function ChatAction(props: {
   text: string;
   icon: JSX.Element;
   onClick: () => void;
+  className?: string;
 }) {
   const iconRef = useRef<HTMLDivElement>(null);
   const textRef = useRef<HTMLDivElement>(null);
@@ -426,7 +428,7 @@ export function ChatAction(props: {
 
   return (
     <div
-      className={clsx(styles["chat-input-action"], "clickable")}
+      className={clsx(styles["chat-input-action"], props.className, "clickable")}
       onClick={() => {
         props.onClick();
         setTimeout(updateWidth, 1);
@@ -625,7 +627,7 @@ export function ChatActions(props: {
           <ChatAction
             onClick={props.uploadImage}
             text={Locale.Chat.InputActions.UploadImage}
-            icon={props.uploading ? <LoadingButtonIcon /> : <ImageIcon />}
+            icon={props.uploading ? <LoadingButtonIcon /> : <UploadIcon />}
           />
         )}
         <ChatAction
@@ -650,13 +652,16 @@ export function ChatActions(props: {
           icon={<PromptIcon />}
         />
 
-        <ChatAction
-          onClick={() => {
-            navigate(Path.Masks);
-          }}
-          text={Locale.Chat.InputActions.Masks}
-          icon={<MaskIcon />}
-        />
+{/*
+  <ChatAction
+    onClick={() => {
+      navigate(Path.Masks);
+    }}
+    text={Locale.Chat.InputActions.Masks}
+    icon={<MaskIcon />}
+  />
+*/}
+
 
         <ChatAction
           text={Locale.Chat.InputActions.Clear}
@@ -673,11 +678,12 @@ export function ChatActions(props: {
           }}
         />
 
-        <ChatAction
+{/*        <ChatAction
           onClick={() => setShowModelSelector(true)}
           text={currentModelName}
           icon={<RobotIcon />}
         />
+        */}
 
         {showModelSelector && (
           <Selector
@@ -842,7 +848,14 @@ export function ChatActions(props: {
             icon={<HeadphoneIcon />}
           />
         )}
+         <ChatAction
+            className={styles["always-show"]}
+            onClick={() => setShowModelSelector(true)}
+            text={currentModelName}
+            icon={<RobotIcon />}
+          />
       </div>
+      
     </div>
   );
 }
